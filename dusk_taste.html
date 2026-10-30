@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dusk Taste — Sweetness After Sunset</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>✦ Free local delivery over Rp 100.000</span>
+    <span>✦ Sunset sessions every evening</span>
+    <span>✦ Loyalty card: 10th drink free</span>
+    <span>✦ Reservations welcome</span>
+    <span>✦ Free local delivery over Rp 100.000</span>
+    <span>✦ Sunset sessions every evening</span>
+    <span>✦ Loyalty card: 10th drink free</span>
+    <span>✦ Reservations welcome</span>
+  </div>
+</div>
+
+<header class="navbar">
+  <div class="nav-container">
+    <a href="#home" class="brand">
+      <span class="brand-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h12l-1 11a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/><path d="M9 12h2M13 12h2"/></svg>
+      </span>
+      Dusk Taste
+    </a>
+    <nav class="nav-menu">
+      <a href="#menu">Menu</a>
+      <a href="#sessions">Sessions</a>
+      <a href="#lokasi">Lokasi</a>
+      <a href="#tentang">Tentang</a>
+    </nav>
+    <a href="https://wa.me/6287742992713" target="_blank" class="btn btn--ink btn--sm">Pesan sekarang</a>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" aria-label="Tutup">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <a href="#menu">Menu</a>
+  <a href="#sessions">Sessions</a>
+  <a href="#lokasi">Lokasi</a>
+  <a href="#tentang">Tentang</a>
+  <a href="https://wa.me/6287742992713" target="_blank">Pesan sekarang →</a>
+</div>
+
+<section id="home" class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="eyebrow">Dessert bar · Subang</span>
+      <div id="hero-particle-text" class="hero-title-container"></div>
+      <p class="hero-subline">
+        Dessert bar independen di Subang dengan cocktail, dessert, dan matcha
+        buatan tangan — ditemani suasana senja yang hangat.
+      </p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn">Lihat menu</a>
+        <a href="#lokasi" class="btn btn--cream">Temukan kami</a>
+      </div>
+    </div>
+
+    <div class="hero-figure">
+      <span class="sticker sticker--blue hero-sticker s1">Since 2026</span>
+      <span class="sticker hero-sticker s2">Sweet treats!</span>
+      <img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0bd18f5a0a02.jpg" alt="Suasana Dusk Taste saat sunset">
+    </div>
+  </div>
+
+  <div class="wave wave--bottom" aria-hidden="true">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path d="M0,60 L1440,60 L1440,30 C1200,0 960,60 720,30 C480,0 240,60 0,30 Z" fill="var(--background)"/>
+    </svg>
+  </div>
+</section>
+
+<section id="menu" class="section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="eyebrow">Pilih kategori</span>
+      <h2>Ada apa di Dusk Taste?</h2>
+    </div>
+    
+    <div id="shop-card-swap" style="height: 600px; width: 100%; max-width: 1000px; margin: 0 auto;"></div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="eyebrow">Menu Pilihan</span>
+      <h2>Yang akan kami pesan <em class="emph-inline">(dan sering).</em></h2>
+    </div>
+    <div class="product-grid">
+      <article class="product-card product-card--yellow" data-reveal="prod">
+        <div class="product-card__img"><img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a8cb5be9c3e5.jpg" alt="Signature Cocktail"></div>
+        <div class="product-card__body">
+          <h3 class="product-card__name">Signature Cocktail</h3>
+          <p class="product-card__desc">Perpaduan cocktail segar dengan sentuhan buah tropis dan rempah pilihan.</p>
+          <div class="product-card__foot">
+            <span class="product-card__price">Rp 45.000</span>
+            <a href="https://wa.me/6287742992713" target="_blank" class="btn btn--sm">Pesan</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card product-card--pink" data-reveal="prod">
+        <div class="product-card__img"><img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1f6aa29f7121.jpg" alt="Chocolate Cake"></div>
+        <div class="product-card__body">
+          <h3 class="product-card__name">Chocolate Cake</h3>
+          <p class="product-card__desc">Kue cokelat lembut dengan lapisan ganache premium yang meleleh di mulut.</p>
+          <div class="product-card__foot">
+            <span class="product-card__price">Rp 32.000</span>
+            <a href="https://wa.me/6287742992713" target="_blank" class="btn btn--sm">Pesan</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card product-card--blue" data-reveal="prod">
+        <span class="sticker sticker--yellow product-card__sticker">Staff fave</span>
+        <div class="product-card__img"><img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/061a438d2ca4.jpg" alt="Matcha Latte"></div>
+        <div class="product-card__body">
+          <h3 class="product-card__name">Matcha Latte</h3>
+          <p class="product-card__desc">Matcha latte creamy dari teh hijau pilihan Jepang dengan susu segar.</p>
+          <div class="product-card__foot">
+            <span class="product-card__price">Rp 28.000</span>
+            <a href="https://wa.me/6287742992713" target="_blank" class="btn btn--sm">Pesan</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card product-card--yellow" data-reveal="prod">
+        <div class="product-card__img"><img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/294576bea6d0.jpg" alt="Kueh Kueh"></div>
+        <div class="product-card__body">
+          <h3 class="product-card__name">Kueh Tradisional</h3>
+          <p class="product-card__desc">Aneka kueh tradisional dengan warna cerah dan rasa manis legit.</p>
+          <div class="product-card__foot">
+            <span class="product-card__price">Rp 15.000</span>
+            <a href="https://wa.me/6287742992713" target="_blank" class="btn btn--sm">Pesan</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card product-card--pink" data-reveal="prod">
+        <div class="product-card__img"><img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a8cb5be9c3e5.jpg" alt="Tiramisu"></div>
+        <div class="product-card__body">
+          <h3 class="product-card__name">Classic Tiramisu</h3>
+          <p class="product-card__desc">Tiramisu klasik dengan lapisan mascarpone lembut dan sentuhan kakao.</p>
+          <div class="product-card__foot">
+            <span class="product-card__price">Rp 38.000</span>
+            <a href="https://wa.me/6287742992713" target="_blank" class="btn btn--sm">Pesan</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card product-card--cream" data-reveal="prod">
+        <div class="product-card__img"><img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1f6aa29f7121.jpg" alt="Creme Brulee"></div>
+        <div class="product-card__body">
+          <h3 class="product-card__name">Creme Brulee</h3>
+          <p class="product-card__desc">Custard vanilla lembut dengan lapisan karamel renyah di atasnya.</p>
+          <div class="product-card__foot">
+            <span class="product-card__price">Rp 34.000</span>
+            <a href="https://wa.me/6287742992713" target="_blank" class="btn btn--sm">Pesan</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="sessions" class="cobalt-section">
+  <div class="wave wave--top" aria-hidden="true">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path d="M0,0 L1440,0 L1440,30 C1200,60 960,0 720,30 C480,60 240,0 0,30 Z" fill="var(--background)"/>
+    </svg>
+  </div>
+
+  <div class="split">
+    <div class="split__text">
+      <span class="eyebrow eyebrow--yellow">Sunset Sessions</span>
+      <h2 class="split__title">Mau makan di tempat? <em class="emph">Kami siapkan meja senja.</em></h2>
+      <p style="font-size:18px; max-width:460px;">
+        Meja outdoor menghadap sunset, cocktail dingin, dessert sharing,
+        dan playlist yang pas. Anda duduk, kami siapkan semuanya.
+      </p>
+      <ul class="price-list">
+        <li><span>Cocktail session</span><span>Rp 85.000</span></li>
+        <li><span>Dessert for two</span><span>Rp 75.000</span></li>
+        <li><span>Matcha &amp; cake</span><span>Rp 55.000</span></li>
+      </ul>
+      <a href="#lokasi" class="btn">Lihat jam buka</a>
+    </div>
+
+    <div class="split__figure">
+      <span class="sticker sticker--yellow split__sticker">No mess at home!</span>
+      <img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a41da6ab19e2.jpg" alt="Suasana Dusk Taste Dessert Bar">
+    </div>
+  </div>
+
+  <div class="wave wave--bottom" aria-hidden="true">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path d="M0,60 L1440,60 L1440,30 C1200,0 960,60 720,30 C480,0 240,60 0,30 Z" fill="var(--background)"/>
+    </svg>
+  </div>
+</section>
+
+<section id="tentang" class="section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="eyebrow">Kenapa Dusk Taste</span>
+      <h2>Bukan sekadar dessert bar.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-panel why-panel--yellow" data-reveal="why">
+        <div class="why-panel__icon" style="background:var(--background)">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M12 22v-6M2 12h6M22 12h-6"/><circle cx="12" cy="12" r="4"/></svg>
+        </div>
+        <h3>Bahan pilihan</h3>
+        <p>Setiap dessert dibuat harian dengan bahan premium pilihan, tidak ada yang basi di sini.</p>
+      </div>
+      <div class="why-panel why-panel--blue" data-reveal="why">
+        <div class="why-panel__icon" style="background:var(--background)">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </div>
+        <h3>Suasana senja</h3>
+        <p>Interior hangat dengan view sunset terbaik di kota. Spot foto dijamin aesthetic.</p>
+      </div>
+      <div class="why-panel why-panel--pink" data-reveal="why">
+        <div class="why-panel__icon" style="background:var(--background)">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12V8H6a2 2 0 0 1 0-4h12v4"/><path d="M6 12v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8"/><circle cx="16" cy="16" r="1"/></svg>
+        </div>
+        <h3>Loyalty yang menguntungkan</h3>
+        <p>Minuman kesepuluh gratis. Tanpa app, cuma kartu stempel yang dibawa pulang.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="pom">
+    <figure class="polaroid" data-reveal="pom">
+      <img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/061a438d2ca4.jpg" alt="Matcha Latte">
+      <figcaption>Matcha Latte, the people's favourite</figcaption>
+    </figure>
+    <div class="pom__story" data-reveal="pom">
+      <span class="eyebrow">Dessert of the month</span>
+      <h2>Cerita di balik Matcha Latte.</h2>
+      <p>
+        Matcha Latte kami jadi bestseller sejak hari pertama. Setiap cangkir
+        dibuat dengan matcha grade upacara langsung dari Uji, dikocok dengan
+        susu segar lokal — tidak pakai sirup, tidak pakai gula tambahan.
+      </p>
+      <p>
+        Bulan ini kami sudah menyajikan lebih dari 800 cangkir, dan masih
+        tetap jadi menu yang paling dicari. Datang sebelum jam 18.00 biar
+        tidak antre.
+      </p>
+      <a href="https://wa.me/6287742992713" target="_blank" class="btn btn--blue">Pesan via WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="eyebrow">Kata mereka</span>
+      <h2>Cerita pelanggan setia.</h2>
+    </div>
+    <div class="reviews-grid">
+      <figure class="review review--yellow" data-reveal="rev">
+        <blockquote class="review__quote">"Cocktail-nya juara, sunset-nya lebih juara lagi. Tempat ini langsung jadi langganan."</blockquote>
+        <figcaption class="review__author">— Andi, Subang</figcaption>
+      </figure>
+      <figure class="review review--pink" data-reveal="rev">
+        <blockquote class="review__quote">"Matcha latte terbaik se-Subang, no debate. Sudah coba lima kali tetap enak."</blockquote>
+        <figcaption class="review__author">— Rina, Bandung</figcaption>
+      </figure>
+      <figure class="review review--blue" data-reveal="rev">
+        <blockquote class="review__quote">"Tempat nongkrong sunset favorit. Suasananya cozy, pelayanannya ramah, pasti balik lagi."</blockquote>
+        <figcaption class="review__author">— Budi, Sumedang</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="lokasi" class="section" style="padding-top:0;">
+  <div class="visit">
+    <div class="visit__info" data-reveal="visit">
+      <span class="eyebrow">Kunjungi kami</span>
+      <h2>Mampir ya. Bawa teman juga.</h2>
+      <ul class="visit__list">
+        <li><span class="label">Alamat</span><span>Dusk Taste, Jl. R.A. Kartini Unsub, Subang, Jawa Barat 40123</span></li>
+        <li><span class="label">Jam buka</span><span>Setiap hari · 16.00 – 23.00 WIB</span></li>
+        <li><span class="label">Telepon</span><span>0838-1234-5678</span></li>
+        <li><span class="label">Instagram</span><span>@dusktaste.id</span></li>
+      </ul>
+      <div class="visit__note">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        Reservasi grup selalu welcome.
+      </div>
+    </div>
+    <div class="visit__figure" data-reveal="visit">
+      <span class="sticker sticker--blue visit__sticker">Sunset spot!</span>
+      <img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a41da6ab19e2.jpg" alt="Suasana Dusk Taste Dessert Bar">
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <nav class="footer__links">
+    <a href="#menu">Menu</a>
+    <a href="#sessions">Sessions</a>
+    <a href="#lokasi">Delivery</a>
+    <a href="#tentang">Loyalty</a>
+    <a href="#tentang">Tentang</a>
+    <a href="https://wa.me/6287742992713" target="_blank">Kontak</a>
+    <a href="https://instagram.com/dusktaste.id" target="_blank">Instagram</a>
+  </nav>
+  <div class="footer__wordmark">DUSK TASTE</div>
+  <div class="footer__bottom">
+    <span>© 2026 Dusk Taste. By Mahesya Jibril.</span>
+    <span>Sweetness After Sunset.</span>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<script type="text/babel" src="script.js"></script>
+
+</body>
+</html>
